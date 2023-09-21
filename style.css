@@ -258,6 +258,18 @@ a:hover{
     border: 1px solid white;
     height: 400px;
 }
+.projeto-7{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(18, 19, 19);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    border: 1px solid white;
+    height: 400px;
+}
 .projeto-1:hover{
     box-shadow: inset 0 0 10px 10px rgba(107, 107, 107, 0.437);
     transition-duration: 0.3s;
@@ -271,10 +283,19 @@ a:hover{
    margin-top: 10px;
    margin-bottom: 10px;
 }
+.projeto-7 >ion-icon{
+    font-size: 70px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
 
 .projeto-1 >p{
     text-align: left;
 }
+.projeto-7 >p{
+    text-align: left;
+}
+
 
 #projeto-2:hover{
     box-shadow: inset 0 0 20px 5px rgb(11, 227, 11);
@@ -295,6 +316,11 @@ a:hover{
 #projeto-6:hover{
     box-shadow: inset 0 0 20px 5px gold;
     border: 1px solid gold;
+}
+#projeto-7:hover{
+    box-shadow: inset 0 0 20px 5px rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    color: #fff;
 }
 
 footer{
@@ -317,5 +343,16 @@ footer{
     color: #fff;
 }
 
+@media(max-width:1400px) {
+    .projeto-7{
+        width: 600px;
+    }
+}
+
+@media(max-width:915px) {
+    .projeto-7{
+        width: 250px;
+    }
+}
 
 
